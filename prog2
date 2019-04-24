@@ -1,0 +1,11 @@
+push 0
+#ciklus
+push 1
+add
+dup
+write
+dup
+push 10
+sub
+onnonzero #ciklus
+exit

@@ -1,0 +1,23 @@
+read
+store max
+push 1
+#ciklus
+read
+dup
+load max
+sub
+push -1
+mult
+onnegative #kisebb
+dup
+store max
+#kisebb
+pop
+push 1
+add
+dup
+push 10
+sub
+onnonzero #ciklus
+load max
+write

@@ -1,0 +1,22 @@
+read
+read
+store a
+store b
+put a b
+call @adder
+write
+exit
+
+@adder
+    get
+    add
+    store c
+    put c
+    call @mult2
+return
+
+@mult2
+    get
+    push 2
+    mult
+return
