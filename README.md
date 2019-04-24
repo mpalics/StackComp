@@ -1,1 +1,2 @@
 # StackComp
+Stack Computer Emulator
